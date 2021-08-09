@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d277e94-7174-44ec-8b44-051d053d5ab0" name="Default Changelist" comment="Added Files">
+      <change afterPath="$PROJECT_DIR$/Assets/Board games.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/DemoScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/DemoScene/Board games.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/DemoScene/Board games.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/Chess board.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/Chess board.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/backgammon board.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/backgammon board.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/checker.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/checker.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/checker1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/checker1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dice.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dice.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 0x0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 0x0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x5.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x5.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x6.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 1x6.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x5.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x5.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x6.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 2x6.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 3x0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 3x0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 3x3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 3x3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 4x0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 4x0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 4x3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 4x3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 4x4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 4x4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 5x0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 5x0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 5x3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 5x3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 5x4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 5x4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 5x5.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 5x5.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x5.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x5.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x6.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/dominoes 6x6.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/elephant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/elephant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/elephant1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/elephant1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/king.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/king.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/king1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/king1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/knight.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/knight.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/knight1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/knight1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/lady.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/lady.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/lady1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/lady1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/pawn.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/pawn.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/pawn1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/pawn1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/queen.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/queen.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/queen1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/queen1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/rook.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/rook.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/rook1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/Prefabs/props/rook1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/Chess board.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/Chess board.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/backgammon board.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/backgammon board.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/checker.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/checker.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/checker1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/checker1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dice.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dice.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 0x0.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 0x0.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x0.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x0.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x4.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x4.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x5.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x5.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x6.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 1x6.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x0.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x0.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x4.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x4.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x5.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x5.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x6.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 2x6.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 3x0.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 3x0.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 3x3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 3x3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 4x0.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 4x0.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 4x3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 4x3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 4x4.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 4x4.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 5x0.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 5x0.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 5x3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 5x3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 5x4.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 5x4.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 5x5.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 5x5.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x0.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x0.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x4.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x4.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x5.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x5.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x6.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/dominoes 6x6.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/elephant.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/elephant.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/elephant1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/elephant1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/king.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/king.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/king1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/king1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/knight.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/knight.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/knight1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/knight1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/lady.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/lady.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/lady1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/lady1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/pawn.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/pawn.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/pawn1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/pawn1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/queen.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/queen.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/queen1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/queen1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/rook.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/rook.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/rook1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Board games/props/rook1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FischKopMain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FischKopMain.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon13.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon14.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon17.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon18.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon19.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon20.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon21.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon22.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon23.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon24.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon25.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon26.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon27.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon28.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon29.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon30.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon31.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon33.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon34.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon35.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon36.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon37.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon38.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon39.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon40.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon41.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon42.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon43.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon44.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon45.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon46.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon47.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon48.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Background/Icon9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon13.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon14.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon17.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon18.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon19.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon20.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon21.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon22.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon23.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon24.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon25.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon26.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon27.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon28.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon29.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon30.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon31.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon33.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon34.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon35.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon36.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon37.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon38.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon39.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon40.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon41.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon42.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon43.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon44.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon45.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon46.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon47.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon48.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/PNG/Transperent/Icon9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/Support contact.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/Support contact.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Minerals Pixel Art Icons/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Animators/Boris.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Animators/Boris.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Animators/Root.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Animators/Root.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Clips/Boris Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Clips/Boris Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Clips/Boris Move.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Animation/Clips/Boris Move.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Sprites/Boris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/Sprites/Boris.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/_Simple.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/1 Simple/_Simple.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/Animation/Plunkah.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/Animation/Plunkah.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/Animation/Plunkah_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/Animation/Plunkah_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/Sprites/Plunkah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/Sprites/Plunkah.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/_Single Skinned Sprite.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/2 Single Skinned Sprite/_Single Skinned Sprite.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Animation/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Animation/Animators/Rikr.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Animation/Animators/Rikr.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Animation/Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Animation/Clips/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Animation/Clips/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Sprites/Rikr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/Sprites/Rikr.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/_Multiple Skinned Sprites.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/3 Multiple Skinned Sprites/_Multiple Skinned Sprites.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Animation/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Animation/Animators/Fei.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Animation/Animators/Fei.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Animation/Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Animation/Clips/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Animation/Clips/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Sprites/Fei.psb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/Sprites/Fei.psb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/_Character.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/4 Character/_Character.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/1 Animated Swap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/1 Animated Swap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/2 Flipbook Animation Swap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/2 Flipbook Animation Swap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/3 Part Swap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/3 Part Swap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/4 Full Skin Swap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/4 Full Skin Swap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/5 DLC Swap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/5 DLC Swap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Animators/Dialog.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Animators/Dialog.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Animators/Rikr.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Animators/Rikr.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Clips/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Clips/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Clips/Scavengers.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Clips/Scavengers.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Clips/Talk.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Animation/Clips/Talk.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Editor/BuildAssetBundle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Editor/BuildAssetBundle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Editor/Unity.2D.Animation.Samples.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Editor/Unity.2D.Animation.Samples.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime/LoadSwapDLC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime/LoadSwapDLC.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime/SwapFullSkin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime/SwapFullSkin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime/SwapPart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime/SwapPart.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime/Unity.2D.Animation.Samples.Runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Scripts/Runtime/Unity.2D.Animation.Samples.Runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Hero.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Hero.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Rikr Full.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Rikr Full.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Rikr Poison.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Rikr Poison.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Rikr Rage.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Rikr Rage.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Rikr.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Rikr.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Zombie1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Zombie1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Zombie2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprite Library/Zombie2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/Rikr Poison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/Rikr Poison.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/Rikr Rage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/Rikr Rage.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/Rikr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/Rikr.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/Scavengers_SpriteSheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/Scavengers_SpriteSheet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/dialog gray.psb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/dialog gray.psb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/dialog.psb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/5 SpriteSwap/Sprites/dialog.psb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Animation/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Animation/Animators/Fei.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Animation/Animators/Fei.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Animation/Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Animation/Clips/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Animation/Clips/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Sprites/Fei's Staff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Sprites/Fei's Staff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Sprites/Fei.psb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/Sprites/Fei.psb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/_Attachment Points.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/Attachment Points/_Attachment Points.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/Animation/Plunkah.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/Animation/Plunkah.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/Animation/Plunkah_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/Animation/Plunkah_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/Sprites/Plunkah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/Sprites/Plunkah.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/_IK.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Extras/IK/_IK.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/LICENSE.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Scripts/AnimationSampleDependency.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Scripts/AnimationSampleDependency.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Scripts/Unity.2D.Animation.Samples.Dependency.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Scripts/Unity.2D.Animation.Samples.Dependency.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Third-Party Notices.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Animation/5.0.6/Samples/Third-Party Notices.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Extras/Custom Canvas Scaler.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Extras/Custom Canvas Scaler/CustomCanvasScaler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Extras/Custom Canvas Scaler/CustomCanvasScaler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Extras/Custom Canvas Scaler/UI Scaling Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Extras/Custom Canvas Scaler/UI Scaling Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Animators/Hero - Animated Parent.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Animators/Hero - Animated Parent.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Animators/Hero - Animated.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Animators/Hero - Animated.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Clips/Hero Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Clips/Hero Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Clips/Parent Hero Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Animation/Clips/Parent Hero Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Fonts/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Fonts/LICENSE.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Fonts/RobotoCondensed-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Fonts/RobotoCondensed-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Physics2D Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Physics2D Materials/Bouncy.physicsMaterial2D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Physics2D Materials/Bouncy.physicsMaterial2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Pixel Perfect Cameras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Pixel Perfect Cameras/PixelPerfectCamera_16PPU_320x240_Pixel Snapped.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Pixel Perfect Cameras/PixelPerfectCamera_16PPU_320x240_Pixel Snapped.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Pixel Perfect Cameras/PixelPerfectCamera_32PPU_320x240_Pixel Snapped.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Pixel Perfect Cameras/PixelPerfectCamera_32PPU_320x240_Pixel Snapped.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Texture Importers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Texture Importers/TextureImporter_32PPU_PointFilter.preset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Presets/Texture Importers/TextureImporter_32PPU_PointFilter.preset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player model.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player model.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_dash_ready.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_dash_ready.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_dash_reloading.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_dash_reloading.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_die.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_die.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_walk.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Animations/player_walk.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Materials/RoboHero.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Materials/RoboHero.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Prefabs/RoboHero.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Prefabs/RoboHero.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Scripts/Hero.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Scripts/Hero.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Textures/RoboHero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/RoboHero/Textures/RoboHero.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Atlas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Atlas/Ocean.spriteatlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Atlas/Ocean.spriteatlas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Sprites/ocean.ase" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Sprites/ocean.ase.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Sprites/ocean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Sprites/ocean.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Tile Asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Tile Asset/Ocean.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Animated Ocean Tile/Tile Asset/Ocean.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Atlas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Atlas/Dungeon.spriteatlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Atlas/Dungeon.spriteatlas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Sprites/dungeon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Sprites/dungeon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Tile Asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Tile Asset/Cave.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Dungeon Tile/Tile Asset/Cave.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Scripts/Editor/RuleTileEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Scripts/Editor/RuleTileEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Scripts/Editor/Unity.2D.PixelPerfect.Samples.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Scripts/Editor/Unity.2D.PixelPerfect.Samples.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Scripts/RuleTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Rule Tiles/Scripts/RuleTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Scripts/BasicCameraFollow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Scripts/BasicCameraFollow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Scripts/CameraManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Scripts/CameraManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Scripts/HeroMover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Scripts/HeroMover.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Sprites/Enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Sprites/Enemy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Sprites/Ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Sprites/Ground.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Sprites/Hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Sprites/Hero.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Tilemap Palettes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Tilemap Palettes/Rule Tiles.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/Tilemap Palettes/Rule Tiles.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/_Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/_Scenes/SpriteRenderer Examples.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/_Scenes/SpriteRenderer Examples.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/_Scenes/Tilemap Examples.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Scenes/_Scenes/Tilemap Examples.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Third-Party Notices.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Third-Party Notices.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Unity.2D.PixelPerfect.Samples.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/2D Pixel Perfect/4.0.1/Sample Scenes and Extras/Unity.2D.PixelPerfect.Samples.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Stein.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FischKop2D/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Stein.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/danie/FischKop2D/Assets/Stein.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/FischKopMain.cs" />
+      <option value="$PROJECT_DIR$/.idea/.idea.FischKop2D/.idea/.gitignore" />
+      <option value="$PROJECT_DIR$/.git/info/exclude" />
+      <option value="$PROJECT_DIR$/.gitignore" />
+      <option value="$PROJECT_DIR$/Assets/Stein.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1wVRd5ZLBrMNbCam61KNEbrgLZv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d277e94-7174-44ec-8b44-051d053d5ab0" name="Default Changelist" comment="" />
+      <created>1628541856135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628541856135</updated>
+      <workItem from="1628541864185" duration="24000" />
+      <workItem from="1628541907650" duration="8058000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1628551766888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628551766888</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Files">
+      <created>1628552454268</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628552454268</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Added Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Files" />
+  </component>
+</project>
