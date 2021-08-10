@@ -4,13 +4,14 @@ using System.Security.Cryptography;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 using Random = System.Random;
 
 public class FischKopMain : MonoBehaviour
 {
-    private Random _wuerfel = new Random();
+    private static Random _wuerfel = new Random();
     private int[] _spielbrett = new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-
+    
     // Event für Sieg
     public delegate void gewonnenEventHandler();
     public event gewonnenEventHandler gewonnenEvent;
@@ -22,9 +23,12 @@ public class FischKopMain : MonoBehaviour
         }
     }
 
-    private int wuerfeln()
+    public static void wuerfeln()
     {
-        return _wuerfel.Next(1, 7);
+        int wert = _wuerfel.Next(1, 7);
+        int wert2 = _wuerfel.Next(1, 7);
+        int sum = wert + wert2;
+        Debug.Log(wert + " " + wert2 + " " + sum);
     }
 
     private void fisch()
@@ -35,15 +39,14 @@ public class FischKopMain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(wuerfeln());
-        foreach (var VARIABLE in _spielbrett)
-        {
-            Debug.Log(VARIABLE);
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            wuerfeln();
+        }
     }
 }

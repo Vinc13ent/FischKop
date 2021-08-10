@@ -52,11 +52,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Scripts\CameraManager.cs" />
+     <Compile Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Rule Tiles\Scripts\RuleTile.cs" />
      <Compile Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Extras\Custom Canvas Scaler\CustomCanvasScaler.cs" />
      <Compile Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Scripts\BasicCameraFollow.cs" />
-     <Compile Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Scripts\CameraManager.cs" />
      <Compile Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\RoboHero\Scripts\Hero.cs" />
-     <Compile Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Rule Tiles\Scripts\RuleTile.cs" />
      <Compile Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Scripts\HeroMover.cs" />
      <None Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Fonts\LICENSE.txt" />
      <None Include="Assets\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Unity.2D.PixelPerfect.Samples.asmdef" />
